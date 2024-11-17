@@ -1,0 +1,18 @@
+# VSCode
+.vscode/
+
+# C++ executables
+*.exe
+*.out
+
+# Python
+__pycache__/
+*.pyc
+
+# Input/Output files
+input.txt
+output.txt
+
+# OS-specific
+.DS_Store
+Thumbs.db
