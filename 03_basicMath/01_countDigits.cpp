@@ -3,20 +3,21 @@
 
 using namespace std;
 
-int numberOfDigits(int n)
-{
-    int count;
-    while (n > 0)
+int numberofDigits(int n){
+    int count=0;
+    while (n>0)
     {
-        int lastNumber = n % 10;
+        int lastdigit = n%10;
         count++;
-        n = n / 10;
+        n = n/10;
     }
     return count;
+    
 }
 int main()
 {
-    int number = 8937;
-    cout << "Number of digits in " << number << "are : " << numberOfDigits(number) << endl;
-    return 0;
+    int number =89893;
+    cout<<"Digits are: "<<numberofDigits(number);
+
+        return 0;
 }
