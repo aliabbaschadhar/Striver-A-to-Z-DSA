@@ -13,7 +13,7 @@ int reverseNumber(int num)
         revnumber = (revnumber * 10) + lastDigit; // reversing a number
         num = num / 10;
         // Checking for overflow and underflow
-        if (revnumber > INT_MAX || revnumber < INT_MIN)
+        if (revnumber > INT16_MAX || revnumber < INT_MIN)
         {
             return 0;
         }
